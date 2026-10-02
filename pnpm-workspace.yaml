@@ -1,0 +1,14 @@
+packages:
+  - "apps/*"
+  - "packages/*"
+
+# @vitest/mocker declares an optional msw@2 peer for Vitest browser-mode module mocking, which this repo does not use.
+peerDependencyRules:
+  allowedVersions:
+    "@vitest/mocker>msw": "3"
+
+onlyBuiltDependencies:
+  - "@biomejs/biome"
+  - esbuild
+  - lefthook
+  - msw
