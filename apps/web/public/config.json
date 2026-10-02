@@ -1,0 +1,11 @@
+{
+  "apiMode": "msw",
+  "apiBaseUrl": "/api",
+  "mock": {
+    "latencyMs": [150, 400],
+    "failureRate": 0,
+    "seed": 20260930,
+    "simulation": { "enabled": true, "intervalMs": [6000, 14000] }
+  },
+  "features": { "disbursementApproval": true }
+}
